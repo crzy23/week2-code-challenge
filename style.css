@@ -1,0 +1,44 @@
+.body {
+    font-family: 'Franklin Gothic Medium';
+    background-color: cadetblue;
+    margin: 0px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+li {
+    background: ;
+    padding:10px ;
+    margin:5px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: brown;
+}
+li.purchased {
+    text-decoration: line-through;
+    color: blue;
+}
+button {
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+button:hover {
+    background-color: chocolate;
+}
+
+#clearList {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
