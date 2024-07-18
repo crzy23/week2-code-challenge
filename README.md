@@ -4,9 +4,8 @@
 This challenge combines array iteration, DOM manipulation, and event handling to create an interactive shopping list application.
 
 # Getting Started
-Run with a computer that uses (linux,Mac OS or Windows 8+0)
-to get access: open your browser ; and deploy the link below;
-# https://crzy23.github.io/week2-code-challenge/
+With your computer  deploy the link below;
+     -(https://vercel.com/ian-ayiros-projects/week2-code-challenge)
 
 
 # Objective:
