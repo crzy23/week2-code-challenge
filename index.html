@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping list</title>
-    <link rel="stylesheet" href="script.js">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1>shopping list</h1>
-        <input type="text" id="newItem" placeholder="Add new item"/>
-         <button onclick="addItem()">Add</button>
-         <ul id="shopping list">
-            <li>bread <button onclick="markAsPurchased(this)">Purchased</button></li>
-         </ul>
-           
-         <button id="clearList" onclick="clearList()">Clear List</button>
-
-<script src="script.js"></script>
+    <div class="shop">
+        <h1>Shopping List</h1>
+        <input type="text" id="newItem" placeholder="Add Item"/>
+        <button id="addButton">Add</button>
+        <ul id="shoppingList">
+            <li>Sample Item <button onclick="markAsPurchased(this)">Purchased</button></li> 
+        </ul>
+        <button id="clearList" onclick="clearList()">Clear List</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-

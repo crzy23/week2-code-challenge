@@ -1,11 +1,27 @@
-.body {
+body {
+    background-image: url('https://media.istockphoto.com/id/1147435916/photo/mature-couple-shopping-in-the-supermarket.jpg?s=2048x2048&w=is&k=20&c=nAZBLuQyXUroxTuN353YNpxdeQMZmzcdW3c89ekSycw=');
     font-family: 'Franklin Gothic Medium';
-    background-color: cadetblue;
+    background-size: cover;
     margin: 0px;
-    padding: 20px;
+    padding: 5px 10px;
 }
+
+.shop {
+    text-align: center;
+}
+
+#shoppingList {
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
 h1 {
     text-align: center;
+    color: crimson;
+    padding-top: 20px;
 }
 
 ul {
@@ -14,25 +30,32 @@ ul {
 }
 
 li {
-    background: ;
-    padding:10px ;
-    margin:5px 0 ;
+    padding: 10px;
+    margin: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 6px;
-    box-shadow: brown;
+    box-shadow: 0 0 5px #63b93b1a;
 }
-li.purchased {
+
+ul, li.purchased {
     text-decoration: line-through;
-    color: blue;
+    color: crimson;
+    font-weight: bolder;
+    font-size: 20px;
 }
+
 button {
     background-color: cornflowerblue;
+    border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding: 5px 10px;
+    width: 150px;
+    padding: 10px;
+    color: white;
 }
+
 button:hover {
     background-color: chocolate;
 }
@@ -40,5 +63,15 @@ button:hover {
 #clearList {
     margin-top: 20px;
     display: block;
-    width: 100%;
+    background-color: darkred;
+    align-self: center;
+}
+
+#clearList:hover {
+    background-color: red;
+}
+
+li button {
+    margin-left: 20px;
+    align-self: center;
 }

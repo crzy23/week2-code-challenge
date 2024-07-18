@@ -6,7 +6,7 @@ This challenge combines array iteration, DOM manipulation, and event handling to
 # Getting Started
 Run with a computer that uses (linux,Mac OS or Windows 8+0)
 to get access: open your browser ; and deploy the link below;
-
+# https://crzy23.github.io/week2-code-challenge/
 
 
 # Objective:
